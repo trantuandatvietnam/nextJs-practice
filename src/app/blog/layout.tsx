@@ -13,14 +13,12 @@ export default function BlogLayout({
   analytist: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
-        {children}
-        <h1>Đây là team</h1>
-        {team}
-        <h1>Đây là analytist</h1>
-        {analytist}
-      </body>
-    </html>
+    <>
+      {children}
+      <h1>Đây là team</h1>
+      {team}
+      <h1>Đây là analytist</h1>
+      {analytist}
+    </>
   );
 }
