@@ -11,6 +11,7 @@
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
     "axios": "^1.7.5",
+    "json-server": "^1.0.0-beta.2",
     "negotiator": "^0.6.3",
     "next": "14.2.6",
     "react": "^18",
